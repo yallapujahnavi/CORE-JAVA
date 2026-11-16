@@ -1,0 +1,92 @@
+### Introduction to Java
+### Why Was Java Created?
+### History of Java
+
+1. 1991 – Green Project
+- James Gosling and a small team at Sun Microsystems explored software for consumer devices.
+2. 1991 – Named "Oak"
+- The new language was named after an oak tree outside Gosling's office.
+3. 1992 – Star7 Demo
+- A handheld prototype (\*7) showed Oak code running on custom hardware.
+4. 1995 – Renamed Java
+* "Oak" was already trademarked, so the language was renamed Java.
+* Java was publicly announced in May 1995.
+5. 1996 – JDK 1.0
+* First official release in January 1996.
+* Java started becoming popular.
+Write Once, Run Anywhere (WORA) is the main idea behind Java.
+
+
+### 01 – INTRODUCTION TO JAVA
+### How Java Evolved: 30 Years of Steady Upgrades
+1. Java 1.0
+* Date: January 1996
+* JVM, core libraries, applets
+* "Write Once, Run Anywhere"
+2. Java 5
+* Date: September 2004
+* Generics, annotations, enums, enhanced for loop.
+3. Java 8
+* Date: March 2014
+* Lambdas, Stream API, new date/time API.
+4. Java 11 (LTS)
+* Date: September 2018
+* First LTS of the 6-month era.
+* Standard HTTP Client.
+5. Java 17 (LTS)
+* Date: September 2021
+* Records, sealed classes, text blocks.
+* Spring Boot 3/4 baseline.
+6. Java 21 (LTS)
+* Date: September 2023
+* Virtual threads.
+* Pattern matching for switch.
+* Record patterns.
+7. Java 25 (LTS)
+* Date: September 2025
+* Compact source files.
+* Scoped values.
+* Compact object headers.
+Note: LTS stands for Long-Term Support. It means a Java version receives long-term updates and support.
+
+DATA TYPES
+-NUMERIC DATA TYPE
+-int
+-float
+-double
+-short
+-long
+-byte
+-STRING DATA TYPES
+-string
+-char
+-BOOLEAN DATA TYPES
+-boolean
+method explanation
+scanner method                   Example                Return type
+nextInt()                         25                     int
+nextLong()                       9876543210L             long
+nextFloat()                      85.5f                   float
+nextDouble()                     25000.75                double
+next()                           nik                     string
+nextLine()                       Hello Java              string
+next().charAt(0)                 A                       char
+nextBoolean()                    true                    boolean
+
+OPERATORS:
+1. Arithmetic Operators
+- +, -, *, /, %
+2. Relational Operators
+- ==, !=, >, <, >=, <=
+3. Logical Operators
+- &&, ||, !
+4. Assignment Operators
+- =, +=, -=, *=, /=, %=
+5. Unary Operators
+- ++, --, +, -, !
+6. Bitwise Operators
+- &, |, ^, ~
+7. Shift Operators
+- <<, >>, >>>
+8. Ternary Operator
+- ? :
