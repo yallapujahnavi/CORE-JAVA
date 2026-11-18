@@ -1,0 +1,104 @@
+## Java String Methods
+
+**1\. `length()`**
+
+Returns the number of characters in a String.
+
+```
+String s = "Java";
+System.out.println(s.length());
+```
+
+
+
+Output: `4`
+
+**2\. `charAt()`**
+
+Returns the character at a specified index.
+
+```
+String s = "Java";
+System.out.println(s.charAt(1));
+```
+
+
+
+Output: `a`
+
+**3\. `toUpperCase()`**
+
+Converts all characters into uppercase.
+
+```
+String s = "java";
+System.out.println(s.toUpperCase());
+```
+
+## Java String Methods (Continued)
+
+**4\. `toLowerCase()`**
+
+Converts all characters into lowercase.
+
+```
+String s = "JAVA";
+System.out.println(s.toLowerCase());
+```
+
+
+
+Output: `java`
+
+**5\. `equals()`**
+
+Compares two Strings based on their content.
+
+```
+String a = "Java";
+String b = "Java";
+
+System.out.println(a.equals(b));
+```
+
+
+
+Output: `true`
+
+**6\. `equalsIgnoreCase()`**
+
+Compares Strings without considering uppercase or lowercase differences.
+
+The remaining code and output are not visible in the image.
+
+**Example\:**
+
+```
+String a = "JAVA";
+String b = "java";
+
+System.out.println(a.equalsIgnoreCase(b));
+```
+
+
+
+Output: `true`
+2
+
+
+Output: `JAVA`
+
+7. contains()
+
+Checks whether a String contains a particular sequence of characters.
+String s = "Java Programming";
+
+System.out.println(s.contains("Java"));
+
+Output: true
+
+8. substring()
+
+Extracts a part of a String.
+9. replace()
+replaces character or character position
